@@ -1,0 +1,47 @@
+[
+  {
+    "id": "c-01",
+    "name": "НейроКот",
+    "species": "cat",
+    "mood": "happy",
+    "energy": 76,
+    "level": 3,
+    "avatar": "😼"
+  },
+  {
+    "id": "d-01",
+    "name": "КиберПёс",
+    "species": "dog",
+    "mood": "content",
+    "energy": 64,
+    "level": 2,
+    "avatar": "🐶"
+  },
+  {
+    "id": "f-01",
+    "name": "Лис‑Хакер",
+    "species": "fox",
+    "mood": "tired",
+    "energy": 42,
+    "level": 4,
+    "avatar": "🦊"
+  },
+  {
+    "id": "dr-01",
+    "name": "СинтДракон",
+    "species": "dragon",
+    "mood": "happy",
+    "energy": 88,
+    "level": 5,
+    "avatar": "🐲"
+  },
+  {
+    "id": "b-01",
+    "name": "СервисБот",
+    "species": "bot",
+    "mood": "content",
+    "energy": 55,
+    "level": 1,
+    "avatar": "🤖"
+  }
+]

@@ -1,0 +1,63 @@
+{
+    "nav": {
+      "dashboard": "Дашборд",
+      "products": "Товары",
+      "profile": "Профиль",
+      "settings": "Настройки",
+      "logout": "Выход"
+    },
+    "layout": {
+      "greeting": "Привет, {{name}}"
+    },
+    "auth": {
+      "loginTitle": "Вход в систему",
+      "username": "Логин",
+      "password": "Пароль",
+      "submit": "Войти",
+      "registerLink": "Регистрация",
+      "error": "Ошибка авторизации"
+    },
+    "products": {
+      "title": "Каталог товаров",
+      "search": "Поиск",
+      "empty": "Товары не найдены",
+      "price": "Цена",
+      "rating": "Рейтинг",
+      "category": "Категория",
+      "details": "Подробнее",
+      "loadMore": "Загрузить ещё"
+    },
+    "dashboard": {
+      "title": "Обзор",
+      "welcome": "Добро пожаловать в административную панель"
+    },
+    "profile": {
+      "title": "Профиль пользователя",
+      "name": "Имя",
+      "email": "Email",
+      "logout": "Выйти"
+    },
+    "settings": {
+      "title": "Настройки приложения",
+      "theme": "Тема",
+      "language": "Язык",
+      "pageSize": "Размер страницы каталога",
+      "themeLight": "Светлая",
+      "themeDark": "Тёмная",
+      "langRu": "Русский",
+      "langEn": "Английский"
+    },
+    "common": {
+      "loading": "Загрузка...",
+      "error": "Произошла ошибка",
+      "back": "Назад"
+    },
+    "notFound": {
+      "title": "Страница не найдена"
+    },
+    "logout": {
+      "title": "Выход",
+      "message": "Вы вышли из системы"
+    }
+  }
+  

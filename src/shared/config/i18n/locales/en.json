@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "layout": {
+    "greeting": "Hello, {{name}}"
+  },
+  "auth": {
+    "loginTitle": "Sign in",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Sign in",
+    "registerLink": "Register",
+    "error": "Login failed"
+  },
+  "products": {
+    "title": "Product catalog",
+    "search": "Search",
+    "empty": "No products found",
+    "price": "Price",
+    "rating": "Rating",
+    "category": "Category",
+    "details": "Details",
+    "loadMore": "Load more"
+  },
+  "dashboard": {
+    "title": "Overview",
+    "welcome": "Welcome to the admin panel"
+  },
+  "profile": {
+    "title": "User profile",
+    "name": "Name",
+    "email": "Email",
+    "logout": "Logout"
+  },
+  "settings": {
+    "title": "Application settings",
+    "theme": "Theme",
+    "language": "Language",
+    "pageSize": "Catalog page size",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "langRu": "Russian",
+    "langEn": "English"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "back": "Back"
+  },
+  "notFound": {
+    "title": "Page not found"
+  },
+  "logout": {
+    "title": "Logout",
+    "message": "You have been logged out"
+  }
+}
+

@@ -1,4 +1,4 @@
-#  React — SEM4
+#  React — SEM4 21/10
 
 ## Запуск (Windows PowerShell)
 

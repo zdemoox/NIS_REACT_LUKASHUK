@@ -1,4 +1,4 @@
-#  React — SEM5 09/12
+#  React — SEM7 09/12
 
 ## Запуск (Windows PowerShell)
 

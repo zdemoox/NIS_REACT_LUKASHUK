@@ -1,0 +1,108 @@
+.page {
+  flex: 1;
+  display: grid;
+  place-items: center;
+  padding: 48px 20px;
+}
+
+.card {
+  width: min(560px, 100%);
+  text-align: left;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: color-mix(in oklab, var(--bg), white 4%);
+  box-shadow: var(--shadow);
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.cardHeader {
+  margin-bottom: 18px;
+}
+
+.title {
+  margin: 0;
+  font-size: 30px;
+  letter-spacing: -0.5px;
+}
+
+.subtitle {
+  margin-top: 8px;
+  color: var(--text);
+}
+
+.form {
+  display: grid;
+  gap: 14px;
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+}
+
+.label {
+  font-size: 14px;
+  color: var(--text-h);
+}
+
+.input {
+  font: inherit;
+  color: var(--text-h);
+  background: color-mix(in oklab, var(--bg), black 2%);
+  border: 1px solid color-mix(in oklab, var(--border), var(--text) 6%);
+  border-radius: 10px;
+  padding: 10px 12px;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.input:focus {
+  border-color: var(--accent-border);
+  box-shadow: 0 0 0 4px var(--accent-bg);
+}
+
+.error {
+  font-size: 13px;
+  color: #ef4444;
+  line-height: 1.25;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+.submit {
+  appearance: none;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font: inherit;
+  cursor: pointer;
+  color: var(--text-h);
+  background: var(--accent-bg);
+  transition: transform 0.05s, filter 0.15s, border-color 0.15s;
+}
+
+.submit:hover {
+  border-color: var(--accent-border);
+  filter: saturate(1.05);
+}
+
+.submit:active {
+  transform: translateY(1px);
+}
+
+.submit:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+  border-color: transparent;
+}
+
+.success {
+  font-size: 14px;
+  color: #22c55e;
+}

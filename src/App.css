@@ -1,0 +1,186 @@
+.appShell {
+  width: 100%;
+  display: flex;
+  padding: 48px 18px;
+  justify-content: center;
+}
+
+.todo {
+  width: 860px;
+  max-width: 100%;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+}
+
+.todoHeader {
+  padding: 22px 22px 18px;
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03));
+  text-align: center;
+}
+
+.todoTitle {
+  margin: 0;
+  font-size: 34px;
+  letter-spacing: -0.6px;
+}
+
+.todoMain {
+  padding: 18px 22px 22px;
+  display: grid;
+  gap: 14px;
+}
+
+.taskInput {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+}
+
+.taskField {
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--card-2);
+  color: var(--text);
+  padding: 0 14px;
+  outline: none;
+}
+
+.taskField::placeholder {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.taskField:focus {
+  border-color: rgba(139, 92, 246, 0.7);
+  box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.18);
+}
+
+.btn {
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  padding: 0 14px;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  user-select: none;
+}
+
+.btnPrimary {
+  background: rgba(139, 92, 246, 0.22);
+  border-color: rgba(139, 92, 246, 0.55);
+}
+
+.btnPrimary:hover {
+  background: rgba(139, 92, 246, 0.3);
+}
+
+.btnGhost:hover {
+  border-color: rgba(239, 68, 68, 0.6);
+  background: rgba(239, 68, 68, 0.12);
+}
+
+.currentPrev {
+  border: 1px dashed rgba(255, 255, 255, 0.22);
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 14px;
+  padding: 12px 14px;
+  display: grid;
+  gap: 6px;
+}
+
+.currentPrevRow {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.currentPrevLabel {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.currentPrevValue {
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.taskLeft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.taskTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.taskRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.taskCompleted .taskTitle {
+  color: rgba(16, 185, 129, 0.9);
+  text-decoration: line-through;
+}
+
+.badge {
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  border: 1px solid rgba(16, 185, 129, 0.5);
+  background: rgba(16, 185, 129, 0.15);
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.empty {
+  margin: 8px 0 0;
+  color: var(--muted);
+  text-align: center;
+}
+
+@media (max-width: 560px) {
+  .taskInput {
+    grid-template-columns: 1fr;
+  }
+
+  .currentPrevRow {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}

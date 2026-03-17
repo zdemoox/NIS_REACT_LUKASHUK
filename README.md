@@ -3,7 +3,6 @@
 ## Запуск (Windows PowerShell)
 
 ```powershell
-cd d:\React\SEM3\todo-list
 npm install
 npm run dev
 ```

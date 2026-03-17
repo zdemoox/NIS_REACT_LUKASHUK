@@ -1,0 +1,38 @@
+.page {
+  padding: 20px;
+  text-align: left;
+  flex: 1 1 auto;
+}
+
+.intro {
+  display: grid;
+  gap: 6px;
+  margin: 8px 0 16px;
+}
+
+.pageTitle {
+  margin: 0;
+  font-size: 28px;
+}
+
+.pageSubtitle {
+  margin: 0;
+  color: var(--text);
+  font-size: 14px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.grid > * {
+  grid-column: span 6;
+}
+
+@media (max-width: 900px) {
+  .grid > * {
+    grid-column: span 12;
+  }
+}

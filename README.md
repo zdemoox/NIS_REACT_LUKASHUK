@@ -1,4 +1,4 @@
-# ToDo List (React) — SEM3
+# ToDo List (React) — SEM3 07/10
 
 ## Запуск (Windows PowerShell)
 

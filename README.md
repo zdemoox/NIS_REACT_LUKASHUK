@@ -1,4 +1,4 @@
-# SEM1 (TypeScript)
+# SEM1 (TypeScript) 23/09
 
 ## Запуск
 
